@@ -12,7 +12,10 @@ public class DataProviderValidation {
         return new Object[][]{
                 {"1", "John"},
                 {"2", "James Bond"},
-                {"3", "Alex"}
+                {"3", "Alex"},
+                {"4", "Ayush"},
+                {"5","Father of SO"}
+
         };
     }
 

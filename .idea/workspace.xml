@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message" />
+    <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message">
+      <change afterPath="$PROJECT_DIR$/reports/Mon Mar 04 01-17-45 IST 2024/API_Execution_Automation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/TestData/creditscore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coreJava/MergeLinkedList1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/ReadJsonFromExtSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidatePostWithMaprequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/CreditScoreValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/JsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coreJava/MergeListinSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coreJava/MergeListinSorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coreJava/secondLargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coreJava/secondLargestNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/builderPattern/BuilderPatternImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builderPattern/BuilderPatternImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/DataProviderValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/DataProviderValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/End2EndAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/End2EndAutomation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/TestNGSuiteDesign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/TestNGSuiteDesign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateMultipleHeadersUsingMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateMultipleHeadersUsingMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateStatusCodeQueryParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateStatusCodeQueryParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateWithSoftwareUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateWithSoftwareUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/getResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/getResponseBody.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,8 +50,11 @@
   <component name="Git.Merge.Settings">
     <option name="BRANCH" value="origin/rest-assured" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/test/java/userMangement/ValidateWithTestDataFromJson.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidationTestDataFromJsonRead.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -71,7 +94,24 @@
       <recent name="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SmokeSuite.xml">
+  <component name="RunManager" selected="TestNG.ValidatePostWithMaprequestBody">
+    <configuration name="DataProviderValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="userManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="userManagement" />
+      <option name="MAIN_CLASS_NAME" value="userManagement.DataProviderValidation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="End2EndAutomation" type="TestNG" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
@@ -82,6 +122,59 @@
       </extension>
       <option name="PACKAGE_NAME" value="userMangement" />
       <option name="MAIN_CLASS_NAME" value="userMangement.End2EndAutomation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGSuiteDesign.validateDeleteStatusCode" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredApiFramewok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredApiFramewok" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.TestNGSuiteDesign" />
+      <option name="METHOD_NAME" value="validateDeleteStatusCode" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateMultipleHeadersUsingMap.validateHeadersUsingMap" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredApiFramewok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredApiFramewok" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.ValidateMultipleHeadersUsingMap" />
+      <option name="METHOD_NAME" value="validateHeadersUsingMap" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidatePostWithMaprequestBody" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredApiFramewok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredApiFramewok" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.ValidatePostWithMaprequestBody" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -106,50 +199,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/ParallelTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidateTestDataFromPropertyFile.validateStatusCode" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TestSuites/ParallelTest.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RegressionSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TestSuites/RegressionSuite.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RettryListner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TestSuites/RettryListner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TestSuites/SanitySuite.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SmokeSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TestSuites/SmokeSuite.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredApiFramewok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredApiFramewok" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.ValidateTestDataFromPropertyFile" />
+      <option name="METHOD_NAME" value="validateStatusCode" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -159,19 +220,19 @@
     <list>
       <item itemvalue="TestNG.End2EndAutomation" />
       <item itemvalue="TestNG.ValidateTestDataFromPropertyFile" />
-      <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/ParallelTest.xml" />
-      <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RegressionSuite.xml" />
-      <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RettryListner.xml" />
-      <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" />
-      <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SmokeSuite.xml" />
+      <item itemvalue="TestNG.ValidatePostWithMaprequestBody" />
+      <item itemvalue="TestNG.DataProviderValidation" />
+      <item itemvalue="TestNG.TestNGSuiteDesign.validateDeleteStatusCode" />
+      <item itemvalue="TestNG.ValidateMultipleHeadersUsingMap.validateHeadersUsingMap" />
+      <item itemvalue="TestNG.ValidateTestDataFromPropertyFile.validateStatusCode" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SmokeSuite.xml" />
-        <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/ParallelTest.xml" />
-        <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RettryListner.xml" />
-        <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" />
-        <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RegressionSuite.xml" />
+        <item itemvalue="TestNG.ValidatePostWithMaprequestBody" />
+        <item itemvalue="TestNG.DataProviderValidation" />
+        <item itemvalue="TestNG.ValidateTestDataFromPropertyFile.validateStatusCode" />
+        <item itemvalue="TestNG.ValidateMultipleHeadersUsingMap.validateHeadersUsingMap" />
+        <item itemvalue="TestNG.TestNGSuiteDesign.validateDeleteStatusCode" />
       </list>
     </recent_temporary>
   </component>

@@ -27,6 +27,7 @@ public class BuilderPatternImplementation {
         responseSpecBuilder.expectStatusCode(200);
         return  setResponseSpecificationBuilder();
 
+
     }
 
     @Test

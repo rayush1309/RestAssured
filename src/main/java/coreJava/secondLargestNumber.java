@@ -11,7 +11,7 @@ public class secondLargestNumber {
             if (arr[i] > fl) {
                 sl = fl;
                 fl = arr[i];
-            } else if (arr[i] > sl) {
+            } else if (arr[i] > sl && fl!=arr[i]) {
                 sl = arr[i];
             }
         }

@@ -1,0 +1,44 @@
+{
+  "people": [
+    {
+      "name": "John Doe",
+      "creditscore": 750,
+      "contact": {
+        "mobileNumber": "+1234567890",
+        "id": "ABC123"
+      }
+    },
+    {
+      "name": "Jane Smith",
+      "creditscore": 800,
+      "contact": {
+        "mobileNumber": "+9876543210",
+        "id": "XYZ456"
+      }
+    },
+    {
+      "name": "Alice Johnson",
+      "creditscore": 700,
+      "contact": {
+        "mobileNumber": "+1112223333",
+        "id": "DEF789"
+      }
+    },
+    {
+      "name": "Bob Williams",
+      "creditscore": 720,
+      "contact": {
+        "mobileNumber": "+4445556666",
+        "id": "GHI987"
+      }
+    },
+    {
+      "name": "Eva Davis",
+      "creditscore": 780,
+      "contact": {
+        "mobileNumber": "+9998887777",
+        "id": "JKL321"
+      }
+    }
+  ]
+}

@@ -109,6 +109,19 @@
       <artifactId>javax.el</artifactId>
       <version>3.0.1-b06</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>7.15.0</version>
+    </dependency>
+      <dependency>
+          <groupId>org.json</groupId>
+          <artifactId>json</artifactId>
+          <version>20240205</version>
+          <scope>test</scope>
+      </dependency>
+
   </dependencies>
   <build>
     <plugins>

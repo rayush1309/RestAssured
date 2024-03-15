@@ -6,7 +6,7 @@ import io.restassured.http.Cookie;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
-import org.testng.AssertJUnit;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.Arrays;
@@ -17,7 +17,6 @@ import java.util.Map;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
-import static org.hamcrest.Matchers.equalTo;
 import static org.testng.Assert.assertEquals;
 
 public class End2EndAutomation {
@@ -89,7 +88,7 @@ public class End2EndAutomation {
                         .when()
                         .get("/digest-auth");
         int actualStatusCode = response.statusCode();
-        AssertJUnit.assertEquals(actualStatusCode, StatusCode.SUCCESS.code);
+        Assert.assertEquals(actualStatusCode, StatusCode.SUCCESS.code);
         System.out.println(response.body().asString());
     }
     @Test
@@ -260,7 +259,7 @@ public class End2EndAutomation {
                 // Uncomment the next line if you want to print the header name and value
                 // System.out.println(h.getName() + ": " + h.getValue());
                 // Validate that the "Server" header value is "cloudflare"
-                AssertJUnit.assertEquals(h.getValue(), "cloudflare");
+                Assert.assertEquals(h.getValue(), "cloudflare");
                 // Print a success message if validation passes
                 System.out.println("Validated Response From Header Successfully");
             }

@@ -16,6 +16,7 @@ public class ValidateMultipleHeadersUsingMap {
         RestAssured.baseURI="https://jsonplaceholder.typicode.com";
         given()
                 .headers(map)
+                .log().all()
                 .when()
                 .get("posts/1")
                 .then()

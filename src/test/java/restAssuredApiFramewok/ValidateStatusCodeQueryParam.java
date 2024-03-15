@@ -7,7 +7,10 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import static org.testng.AssertJUnit.assertEquals;
 
-public class ValidateStatusCodeQueryParam {
+public class
+
+
+ValidateStatusCodeQueryParam {
     @Test
     public void validateStatusCode() {
         // Set the base URI for the API

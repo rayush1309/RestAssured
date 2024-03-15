@@ -7,6 +7,7 @@ import io.restassured.http.Cookie;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
+import org.testng.Assert;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import utils.ExtentReport;
@@ -19,7 +20,6 @@ import java.util.Map;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
-import static org.hamcrest.Matchers.equalTo;
 import static org.testng.Assert.assertEquals;
 
 public class TestNGSuiteDesign  extends BaseTest {
@@ -272,7 +272,7 @@ public class TestNGSuiteDesign  extends BaseTest {
                 // Uncomment the next line if you want to print the header name and value
                 // System.out.println(h.getName() + ": " + h.getValue());
                 // Validate that the "Server" header value is "cloudflare"
-                AssertJUnit.assertEquals(h.getValue(), "cloudflare");
+                Assert.assertEquals(h.getValue(), "cloudflare");
                 // Print a success message if validation passes
                 System.out.println("Validated Response From Header Successfully");
             }

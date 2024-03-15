@@ -3,12 +3,10 @@ package restAssuredApiFramewok;
 import core.StatusCode;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.apache.groovy.json.internal.IO;
 import org.json.simple.JSONArray;
 import org.json.simple.parser.ParseException;
 import org.testng.annotations.Test;
 import utils.JsonArrayReader;
-import utils.JsonReader;
 import utils.PropertyReader;
 import utils.SoftAssertionUtils;
 
@@ -37,6 +35,7 @@ public class ValidateWithSoftwareUtils extends JsonArrayReader{
                         .response();
           st.assertEquals(response.getStatusCode(), StatusCode.SUCCESS.code,"Status code is not 200");
           st.assertAll();
+
 
         System.out.println("validateResponseUsingSoftUtils Executed Sucessfully");
 

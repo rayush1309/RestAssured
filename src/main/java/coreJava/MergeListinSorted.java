@@ -48,6 +48,7 @@ public class MergeListinSorted {
         for (int value : array) {
             result.add(value);
         }
+
         return result;
     }
 }
