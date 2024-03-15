@@ -12,7 +12,7 @@ public class ValidatePostWithMaprequestBody {
         public void validatePostWithString(){
             RestAssured.baseURI="https://reqres.in";
             JsonObject req= new JsonObject();
-            req.addProperty("name","ayush");
+            req.addProperty("name","ayush Raj");
             req.addProperty("job","Software-Engineer");
 
 
