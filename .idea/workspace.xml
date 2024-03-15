@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message">
-      <change afterPath="$PROJECT_DIR$/reports/Mon Mar 04 01-17-45 IST 2024/API_Execution_Automation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/TestData/creditscore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coreJava/MergeLinkedList1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/ReadJsonFromExtSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidatePostWithMaprequestBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/CreditScoreValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/JsonReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coreJava/MergeListinSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coreJava/MergeListinSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coreJava/secondLargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coreJava/secondLargestNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/builderPattern/BuilderPatternImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builderPattern/BuilderPatternImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/DataProviderValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/DataProviderValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/End2EndAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/End2EndAutomation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/TestNGSuiteDesign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/TestNGSuiteDesign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateMultipleHeadersUsingMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateMultipleHeadersUsingMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateStatusCodeQueryParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateStatusCodeQueryParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateWithSoftwareUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateWithSoftwareUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/getResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/getResponseBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidatePostWithMaprequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidatePostWithMaprequestBody.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
